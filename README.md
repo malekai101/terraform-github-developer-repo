@@ -10,7 +10,7 @@ Use of this module requires the github provider and the tfe providers.   The Git
 
 ```hcl
 module "sample-repo" {
-    source = "malekai101/developer-repo"
+    source = "app.terraform.io/csmith/developer-repo/github"
 
     project_name = "sample project"
     project_environment = "DEV"
