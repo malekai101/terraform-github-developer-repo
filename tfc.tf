@@ -16,7 +16,8 @@ data "http" "tfc_ips" {
  resource "tfe_workspace" "dev_project_workspace" {
    name         = github_repository.dev_repo.name
    organization = var.org_name
-   queue_all_runs = false
+   queue_all_runs = true
+   auto_apply = true
    vcs_repo {
      identifier     = github_repository.dev_repo.full_name
      branch         = "main"
