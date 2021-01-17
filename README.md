@@ -6,6 +6,11 @@ This module creates a GitHub Repository and matched Terraform Cloud workspace fo
 
 Use of this module requires the github provider and the tfe providers.   The GitHub account used in the provider must have the rights to create a repository in the designated organization.  There must also be a template project in GitHub.  The TFE provider must use an account that has the ability to create workspaces.  Additionally there must be a GitHub VCS connection for the TFC organization.
 
+## Versions
+
+* 1.0.1: Initial version
+* 1.0.2: Changes for auto queue and apply.
+
 ## Usage
 
 ```hcl
