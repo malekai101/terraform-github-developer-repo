@@ -10,6 +10,7 @@ Use of this module requires the github provider and the tfe providers.   The Git
 
 * 1.0.1: Initial version
 * 1.0.2: Changes for auto queue and apply.
+* 1.0.3: Added workspace id to output
 
 ## Usage
 
