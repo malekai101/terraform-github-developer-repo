@@ -20,6 +20,8 @@ resource "github_repository" "dev_repo" {
   }
 }
 
+// This section is not needed in a GitOps workflow
+/*
 resource "github_repository_file" "terraform_file" {
   repository          = github_repository.dev_repo.name
   branch              = "main"
@@ -41,6 +43,7 @@ resource "github_repository_file" "terraform_file" {
 }
 EOT
 }
+*/
 
 
 
